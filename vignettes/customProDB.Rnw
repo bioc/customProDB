@@ -93,7 +93,7 @@ The dbSNP data is huge and is getting larger and larger.
 These two functions only download the data in coding region for performance reasons. 
 Use the code below to check the current dbSNP versions for a specified genome provided by the UCSC table browser.
 
-<<dbSNPversion>>=
+<<dbSNPversion, eval=FALSE>>=
 library('rtracklayer')
 session <- browserSession()
 genome(session) <- 'hg19'
