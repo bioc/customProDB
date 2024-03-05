@@ -136,7 +136,7 @@ options(width=70)
 library(customProDB)
 @
 
-<<PrepareAnnoRef>>=
+<<PrepareAnnoRef, eval=FALSE>>=
 transcript_ids <- c("NM_001126112", "NM_033360", "NR_073499", "NM_004448", 
 			"NM_000179", "NR_029605", "NM_004333", "NM_001127511")
 pepfasta <- system.file("extdata", "refseq_pro_seq.fasta", 
