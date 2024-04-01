@@ -13,9 +13,9 @@
 ##' @author Xiaojing Wang
 ##' @examples
 ##' 
-##' ensembl <- useMart("ENSEMBL_MART_ENSEMBL", dataset="hsapiens_gene_ensembl",
-##' host="may2015.archive.ensembl.org", path="/biomart/martservice", 
-##' archive=FALSE)
+##' ensembl <- useEnsembl(biomart = 'genes', 
+##' dataset = 'hsapiens_gene_ensembl',
+##' version = 111)
 ##' 
 ##' annotation_path <- tempdir()
 ##' transcript_ids <- c("ENST00000234420", "ENST00000269305", "ENST00000445888", 

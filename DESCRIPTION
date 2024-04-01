@@ -3,7 +3,7 @@ Type: Package
 Title: Generate customized protein database from NGS data, with a focus
         on RNA-Seq data, for proteomics search
 Version: 1.42.1
-Date: 2024-03-04
+Date: 2024-04-01
 Author: Xiaojing Wang
 Maintainer: Xiaojing Wang <xwang.research@gmail.com>
 			Bo Wen <wenbostar@gmail.com>
