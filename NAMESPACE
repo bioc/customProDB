@@ -9,6 +9,7 @@ import(Biostrings)
 import(GenomicFeatures)
 import(VariantAnnotation)
 import(RSQLite)
+import(txdbmaker)
 
 importMethodsFrom(DBI, dbConnect, dbDisconnect,
                        dbExecute, dbGetQuery,
